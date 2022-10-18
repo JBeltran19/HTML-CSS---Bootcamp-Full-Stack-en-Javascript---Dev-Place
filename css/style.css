@@ -1,0 +1,150 @@
+  body {
+  	 text-align: center; 
+  	 font:300 20px/1.7 'Roboto Condensed';
+  }
+
+  .header { 
+  	display: flex; 
+  	justify-content: center; 
+  	align-items: center; 
+  }
+
+  .navbar { 
+  	display: flex; 
+  	justify-content: center; 
+  	align-items: center;  
+  }
+
+  .empresas{ 
+  	text-align: left; 
+  }
+
+  .list-services {
+  	display: flex; 
+  	align-items: center; 
+  	justify-content: center;
+  }
+  .list-services figure { 
+  	display: flex; 
+  	justify-content: center; 
+  	align-items: center; 
+  	flex-flow: column;
+
+  }
+ 
+
+
+  .header { 
+  	height: 250px; 
+  	
+  }
+
+  .navbar { 
+  	height: 50px; 
+  	background: #2c3e50; 
+  	border-bottom: 1px dashed #3498db;
+  }
+    .navbar a { 
+    	padding: 0 20px; 
+    	color: #fff; 
+    	text-decoration: none; 
+    	text-transform: uppercase; 
+    	font: 20px 'Stint Ultra Condensed';}
+  .title {
+  	margin-bottom: 40px; 
+  	font: 60px 'Stint Ultra Condensed'; 
+  	text-transform: uppercase;
+  }
+  p {
+  	margin-bottom: 40px;
+  }
+
+  .btn { 
+  	border: 2px solid #2c3e50; 
+  	padding: 10px 40px; 
+  	display: inline-block; 
+  	text-decoration: none; 
+  	color: #2c3e50;
+  }
+
+
+  .content { padding: 40px 0;}
+
+    .who {
+    	background: #2c3e50; 
+    	color: #fff;
+    }
+      .who p { 
+      	max-width: 1055px; 
+      	margin: 0 auto;
+      }
+    .services {
+    	background: #34495e;
+    	color: #fff;}
+
+    .empresas {
+
+    	background-size: cover; 
+    	
+    }
+      .contain {
+      	max-width: 1055px; 
+      	margin: 0 auto;}
+      .empresas p {
+      	max-width: 450px;
+      }
+
+    .form {
+    	color: #34495e; 
+    	padding-bottom: 0;
+
+    }
+      
+
+
+
+  .list-services figure {
+  	 position: relative; 
+  	 width: 150px; 
+  	 height: 190px;
+  	}
+  .list-services figure:after {
+  	content: ""; 
+  	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	border-radius: 50%; 
+  	z-index: 0; 
+  	background: #fff; 
+  	width: 150px; 
+  	height: 150px;}
+    .list-services img {
+    	position: relative; 
+    	z-index: 1;
+    	width: 150px; 
+    	height: 190px;}
+  .list-services li { 
+  	list-style-type: none;
+  	padding: 0 30px; 
+  }
+  .list-services figcaption { 
+  	position: relative; 
+  	left: 0; 
+  	right: 0; 
+  	bottom: -40px;
+  }
+  .footer {
+	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #2c3e50;
+	color: #fff; 
+	text-align: center;
+	margin-top: 30px;
+  }
+
+  .footer p {
+	display: inline;
+	margin-right: 50px;
+  }
